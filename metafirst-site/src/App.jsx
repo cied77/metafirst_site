@@ -222,11 +222,12 @@ const NAV_LINKS = [
 
 const PRODUCTS = [
   {
-    name: "Nexora CRM",
-    tag: ["SaaS", "B2B"],
+    name: "TripOn",
+    tag: ["Travel Agent"],
     desc: "Platform manajemen relasi pelanggan untuk tim sales yang bergerak cepat — dari prospek sampai closing dalam satu dashboard.",
     icon: Boxes,
     img: "/product/product_nexora.png",
+    url: "https://tripon.id",
   },
   {
     name: "Flowbit",
@@ -234,6 +235,7 @@ const PRODUCTS = [
     desc: "Automasi workflow tanpa kode untuk tim operasional. Sambungkan sistem, atur pemicu, biarkan Flowbit yang bekerja.",
     icon: Code2,
     img: "/product/product_flowbit.png",
+    url: "https://your-flowbit-url.com",
   },
   {
     name: "PulseMetrics",
@@ -241,6 +243,7 @@ const PRODUCTS = [
     desc: "Dashboard analitik real-time untuk tim produk. Pantau metrik penting tanpa harus menunggu laporan mingguan.",
     icon: Smartphone,
     img: "/product/product_pulsemetrics.png",
+    url: "https://your-pulsemetrics-url.com",
   },
 ];
 
@@ -954,9 +957,14 @@ export default function App() {
                         <span key={t} className="mf-tag">{t}</span>
                       ))}
                     </div>
-                    <button className="mf-card-link">
+                    <a
+                      href={p.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mf-card-link"
+                    >
                       Explore product <ArrowUpRight size={15} />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </Reveal>
