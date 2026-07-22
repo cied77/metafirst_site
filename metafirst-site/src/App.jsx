@@ -226,21 +226,21 @@ const PRODUCTS = [
     tag: ["SaaS", "B2B"],
     desc: "Platform manajemen relasi pelanggan untuk tim sales yang bergerak cepat — dari prospek sampai closing dalam satu dashboard.",
     icon: Boxes,
-    img: "/product_nexora.png",
+    img: "/product/product_nexora.png",
   },
   {
     name: "Flowbit",
     tag: ["Automation", "Internal Tools"],
     desc: "Automasi workflow tanpa kode untuk tim operasional. Sambungkan sistem, atur pemicu, biarkan Flowbit yang bekerja.",
     icon: Code2,
-    img: "/product_flowbit.png",
+    img: "/product/product_flowbit.png",
   },
   {
     name: "PulseMetrics",
     tag: ["Analytics", "Dashboard"],
     desc: "Dashboard analitik real-time untuk tim produk. Pantau metrik penting tanpa harus menunggu laporan mingguan.",
     icon: Smartphone,
-    img: "/product_pulsemetrics.png",
+    img: "/product/product_pulsemetrics.png",
   },
 ];
 
